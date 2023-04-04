@@ -5,36 +5,57 @@
     user-select: none;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    background-image: url('../perpustakaan/perpus1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
 }
-h3{
-    border: 2px dotted rgb(47, 47, 47);
+h2{
     text-align: center;
     background-color: grey;
     
 }
-h6{
+body{
+    text-align: center;
+}
+form{
+    margin: 30px;
+}
+h1{
+    text-align: center;  
+    background-color:gray;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    background-color: gray;
+}
+h4{
+    margin: 10px;
     text-decoration: underline;
     font-weight: bold;
     text-align: center;
 }
 .sidebar{
+    margin: 0;
     list-style-type: none;
     position: fixed;
-    width: 250px;
+    width: 240px;
     height: 100%;
     left: 0;
     background-color: black;
 }
 .sidebar text{
-    color: beige;
+    color:brown;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 200px;
     text-align: center;
     background-color: aliceblue;
     letter-spacing: 1px;
 }
 nav ul{
-    background: black;
+
     height: 100%;
     width: 100%;
     list-style: none;
@@ -46,17 +67,17 @@ nav ul li {
     border-bottom: 1px solid rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(247, 247, 247), alpha);
 }
 nav ul li a{
-    color:beige;
+    color:rgb(112, 53, 17);
     text-decoration: none;
     font-size: 18px;
     padding-left: 0;
-    font-weight: 500;
+    font-weight: 400;
     display: block;
     width: 100%;
     border-left: 3px solid transparent;
 }
 nav ul li a:hover{
-    color: rgb(8, 138, 138);
+    color:aliceblue;
     background:black ;
     border border-left-color: cyan;
 }
@@ -79,8 +100,7 @@ article{
     text-align: center;
 }
 footer{
-    background-color: gray;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: black;
     position:static;

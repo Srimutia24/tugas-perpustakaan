@@ -1,0 +1,3 @@
+{
+    alert("SELAMAT DATANG DI PERPUSTAKAAN")
+}

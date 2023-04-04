@@ -1,26 +1,31 @@
 {
-    alert("SELAMAT DATANG DI PERPUSTAKAAN")
+    alert ("Selamat Datang");
 }
-
-// function cekform(){
-//     id anggota = document.getElementById('txtid');
+{
+    alert ("Mohon Untuk Mengisi Form");
+}
+// function cekform{
+//     id_anggota = document.getElementById('txtid');
 //     nama = document.getElementById('txtnama');
-//     jk=document.getElementById('jk');
-//     alamat=document.getElementById('txtalamat');
-//     if(nama.value==''){
-//         alert ('nama tidak boleh kosong');
-//         nama.focus();
+//     alamat = document.getElementById('txtalamat');
+//     jenis_kelamin = document.getElementById('jk');
+//     if(id_anggota.value==''){
+//         alert('id tidak boleh kosong');
+//         id_anggota.focus();
 //         return false;
-//     }else if(olahraga.value==''){
-//         alert('oalahraga balum dipilih');
-//         olahraga.focus();
+//     }else if(id_anggota.value.length<=3){
+//         alert('id minimal 3 karakter');
+//         id_anggota.focus();
 //         return false;
-//     }else if(alamat.value==''){
-//         alert('alamat balum diisi');
-//         alamat.focus();
+//     } else if(jenis_kelamin.value==''){
+//         alert('jenis kelamin belum dipilih ');
+//         jenis_kelamin.focus();
 //         return false;
-// else{
-//     alert('Terima Kasih Telah mengisi Data Anggota')
-//     return true;
-// }
-// }
+//     }else{
+//         alert('terima kasih telah mengisi form')
+//         return true;
+//     }
+    
+    
+
+}
